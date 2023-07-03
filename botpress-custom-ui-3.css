@@ -1,0 +1,63 @@
+
+
+/* chat container */
+.bpw-msg-list-container {
+    background: #1a1e2d;
+}
+
+.bpw-date-container {
+    color: #fff;
+}
+
+/* Chat container */
+.bpw-message-container, .bpw-message-group {
+    gap: 4px;
+}
+
+.bpw-bot-avatar {
+    display: none;
+}
+
+/* Chat bubble */
+.bpw-chat-bubble-content {
+    border-radius: 99999px;
+    border: 0;
+}
+
+.bpw-chat-bubble .bpw-chat-bubble-content {
+    position: relative;
+    color: #fff;
+    font-weight: 300;
+    padding: 8px 14px;
+    font-size: 15px;
+}
+
+.bpw-chat-bubble .bpw-chat-bubble-content::after {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    width: 16px;
+    height: 16px;
+    background: red;
+}
+
+.bpw-from-bot .bpw-chat-bubble .bpw-chat-bubble-content {
+    background: #252b3d;
+}
+
+.bpw-from-bot .bpw-chat-bubble .bpw-chat-bubble-content::after {
+    left: 0;
+}
+
+.bpw-from-user .bpw-chat-bubble .bpw-chat-bubble-content {
+    background: #4076e7;
+}
+
+.bpw-from-user .bpw-chat-bubble .bpw-chat-bubble-content::after {
+    right: 0;
+}
+
+.bpw-keyboard-single-choice {
+    /* border-top: 0; */
+    padding: 0;
+}
