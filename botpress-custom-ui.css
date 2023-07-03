@@ -1,3 +1,16 @@
-.bpw-from-bot .bpw-chat-bubble .bpw-chat-bubble-content {
-    background: red;
+.bpw-bot-avatar {
+    display: none;
+}
+
+
+/* Chat */
+.bpw-chat-bubble-content {
+    border-radius: 99999px;
+    border: 0;
+    background: #252b3d;
+}
+
+.bpw-keyboard-single-choice {
+    border-top: 0;
+    padding: 0;
 }
