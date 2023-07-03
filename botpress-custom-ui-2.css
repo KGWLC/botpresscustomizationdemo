@@ -1,0 +1,33 @@
+
+
+/* chat container */
+.bpw-msg-list-container {
+    background: #1a1e2d;
+}
+
+.bpw-date-container {
+    color: #fff;
+}
+
+/* Chat bubble */
+.bpw-bot-avatar {
+    display: none;
+}
+
+.bpw-chat-bubble-content {
+    border-radius: 99999px;
+    border: 0;
+}
+
+.bpw-from-bot .bpw-chat-bubble .bpw-chat-bubble-content {
+    background: #252b3d;
+    color: #fff;
+    font-weight: 300;
+    padding: 0.5rem 0.75rem;
+    font-size: 15px;
+}
+
+.bpw-keyboard-single-choice {
+    border-top: 0;
+    padding: 0;
+}
