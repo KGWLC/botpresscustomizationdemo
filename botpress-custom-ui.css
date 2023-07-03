@@ -1,9 +1,19 @@
+
+
+/* chat container */
+.bpw-msg-list-container {
+    background: #1a1e2d;
+}
+
+.bpw-date-container {
+    color: #fff;
+}
+
+/* Chat bubble */
 .bpw-bot-avatar {
     display: none;
 }
 
-
-/* Chat */
 .bpw-chat-bubble-content {
     border-radius: 99999px;
     border: 0;
